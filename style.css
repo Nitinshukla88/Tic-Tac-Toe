@@ -28,11 +28,12 @@ nav li{
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
 }
 
 .item{
     border: 1px solid black;
-    padding: 18px;
+    padding: 20px;
     font-size: 3rem;
     text-align: center;
 }
