@@ -39,8 +39,11 @@ nav li{
     color: yellow;
 }
 
-img{
+.img{
     border-radius: 5px;
+}
+
+.gif{
     visibility: hidden;
 }
 
