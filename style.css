@@ -12,7 +12,7 @@ html, body{
 }
 
 nav{
-    background-color: rgb(238, 238, 6);
+    background-color: yellow;
 }
 
 nav li{
@@ -32,10 +32,11 @@ nav li{
 }
 
 .item{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 20px;
     font-size: 3rem;
     text-align: center;
+    color: yellow;
 }
 
 img{
@@ -48,6 +49,8 @@ img{
     align-items: center;
     justify-content: center;
     padding: 40px;
+    background-color: black;
+    height: 86%;
 }
 
 .playContainer{
@@ -63,6 +66,7 @@ img{
     font-weight: 400;
     font-style: normal;
     margin: 4px;
+    color: white;
 }
 
 .reset{
@@ -74,6 +78,21 @@ img{
     border-radius: 6px;
     padding: 5px;
     cursor: pointer;
-    background-color: rgb(238, 238, 6);
+    background-color: yellow;
 }
 
+.b-top-0{
+    border-top: 0;
+}
+
+.b-left-0{
+    border-left: 0;
+}
+
+.b-bottom-0{
+    border-bottom: 0;
+}
+
+.b-right-0{
+    border-right: 0;
+}

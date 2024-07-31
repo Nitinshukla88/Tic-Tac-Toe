@@ -24,6 +24,7 @@ for(i = 0; i<divsOfplay.length; i++){
 }
 
 reset.addEventListener("click", function(){
+    playsound.play();
     for(i = 0; i<divsOfplay.length; i++){
         divsOfplay[i].innerHTML = "";
     }
