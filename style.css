@@ -67,8 +67,8 @@ img{
     align-items: center;
     justify-content: center;
     padding: 40px;
-    background-color: black;
-    height: 86%;
+    background-color:black;
+    height: 63%;
 }
 
 .playContainer{
@@ -113,4 +113,15 @@ img{
 
 .b-right-0{
     border-right: 0;
+}
+
+.wonMsg{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+    color: white;
+    background-color: black;
+    transition: font-size .8s ease-in-out
 }
