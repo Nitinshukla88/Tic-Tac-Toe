@@ -29,6 +29,17 @@ nav li{
     display: grid;
     grid-template-columns: repeat(3, 90px);
     grid-template-rows: repeat(3, 90px);
+    position: relative;
+}
+
+.line{
+    height: 3px;
+    background-color:white;
+    width: 0;
+    /* width: 270px; */
+    position: absolute;
+    transition: width 1s ease-in-out;
+    /* transform: translate(5px, 137px)rotate(45deg); */
 }
 
 .item{
@@ -37,14 +48,18 @@ nav li{
     font-size: 3rem;
     text-align: center;
     color: yellow;
+    cursor: pointer;
 }
 
-.img{
-    border-radius: 5px;
+img{
+    border-radius: 6px;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .gif{
-    visibility: hidden;
+    height: 186px;
+    width: 267px;
 }
 
 .mainContainer{
