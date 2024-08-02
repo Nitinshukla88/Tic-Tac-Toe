@@ -34,7 +34,7 @@ nav li{
 
 .line{
     height: 3px;
-    background-color:white;
+    background-color:rgb(179, 10, 38);
     width: 0;
     position: absolute;
     transition: width 1s ease-in-out;
