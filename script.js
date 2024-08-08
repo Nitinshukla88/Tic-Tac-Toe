@@ -15,6 +15,9 @@ function normalise(mat, conBoxes){
     }
 }
 
+
+
+
 let playsound = new Audio("click.wav");
 let winSound = new Audio("win.wav");
 let drawSound = new Audio("gameover.wav");
@@ -26,16 +29,20 @@ let imgElement = document.getElementsByTagName("img");
 let line = document.querySelector(".line");
 let message = document.querySelector(".wonMsg");
 
+
+
 function mainlogic(tx, ty, angle, winner){
     playTurn.innerHTML = "";
     winSound.play();
     imgElement[0].style.width = "100%";
     line.style.width = "270px"
     line.style.transform = `translate(${tx}px, ${ty}px) rotate(${angle}deg)`;
-    message.style.fontSize = "3rem";
+    // message.style.fontSize = "3rem";
     if(turn == "X"){
+        message.classList.add("win");
         message.innerHTML = "Hurrah! 0 has won the Game:)";
     }else{
+        message.classList.add("win");
         message.innerHTML = "Hurrah! X has won the Game:)";
     }
 }
