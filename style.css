@@ -128,9 +128,3 @@ img{
 .win{
     font-size: 3rem;
 }
-
-@media (max-width: 500px) {
-    .win{
-        font-size: 0.7rem;
-    }
-}
